@@ -38,8 +38,8 @@ const Contact = () => {
 
           <div className="mt-12 space-y-8 text-sm">
             {[
-              ["Email", "hello@justinakasuwi.com"],
-              ["Phone", "+255 700 000 000"],
+              ["Email", "justinaeugen@gmail.com"],
+              ["Phone", "+255 781 635 368"],
               ["Studio", "Dar es Salaam, Tanzania"],
             ].map(([k, v]) => (
               <div key={k}>

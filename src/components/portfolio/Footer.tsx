@@ -4,9 +4,9 @@ const Footer = () => {
       <div className="container">
         <div className="overflow-hidden mb-16">
           <div className="flex marquee whitespace-nowrap font-display text-[14vw] md:text-[10vw] font-light leading-none text-ivory/10">
-            <span className="px-6">Justina Kasuwi —</span>
+            <span className="px-6">Justina Eugen —</span>
             <span className="px-6 italic">Available Worldwide —</span>
-            <span className="px-6">Justina Kasuwi —</span>
+            <span className="px-6">Justina Eugen —</span>
             <span className="px-6 italic">Available Worldwide —</span>
           </div>
         </div>
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-ivory/10 flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-[10px] uppercase tracking-luxe text-ivory/40">
-          <p>© {new Date().getFullYear()} Justina Kasuwi. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Justina Eugen. All rights reserved.</p>
           <p>Dar es Salaam · Tanzania</p>
         </div>
       </div>

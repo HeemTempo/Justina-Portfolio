@@ -8,12 +8,12 @@ interface Stat {
 }
 
 const stats: Stat[] = [
-  { label: "Height", value: 178, unit: "cm" },
-  { label: "Weight", value: 56, unit: "kg" },
-  { label: "Bust", value: 84, unit: "cm" },
-  { label: "Waist", value: 62, unit: "cm" },
-  { label: "Shoulders", value: 40, unit: "cm" },
-  { label: "Shoe", value: 39, unit: "EU" },
+  { label: "Height", value: 164.5, unit: "cm" },
+  { label: "Weight", value: 57, unit: "kg" },
+  { label: "Bust", value: 34, unit: "cm" },
+  { label: "Waist", value: 28, unit: "cm" },
+  { label: "Shoulders", value: 17, unit: "cm" },
+  { label: "Shoe", value: 40, unit: "EU" },
 ];
 
 const Counter = ({ to, duration = 1800 }: { to: number; duration?: number }) => {
