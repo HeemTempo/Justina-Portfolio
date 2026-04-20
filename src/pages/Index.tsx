@@ -7,7 +7,7 @@ import Education from "@/components/portfolio/Education";
 import Skills from "@/components/portfolio/Skills";
 import Experience from "@/components/portfolio/Experience";
 import Projects from "@/components/portfolio/Projects";
-import RateCard from "@/components/portfolio/RateCard";
+// import RateCard from "@/components/portfolio/RateCard";
 import Contact from "@/components/portfolio/Contact";
 import Footer from "@/components/portfolio/Footer";
 
