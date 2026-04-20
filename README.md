@@ -1,73 +1,87 @@
-# React + TypeScript + Vite
+# Justina Kasuwi — Portfolio 2025
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A luxury editorial portfolio website for Justina Kasuwi, a photogenic model and fashion designer based in Dar es Salaam, Tanzania. The site is designed to reflect the elegance, precision, and East African identity that defines her work — built with a dark, cinematic aesthetic and smooth motion throughout.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About the Project
 
-## React Compiler
+This is a single-page portfolio website that presents Justina's identity, measurements, vision, skills, experience, selected work, and rate card in a cohesive editorial format. Every section is crafted to feel like a high-fashion magazine spread — generous whitespace, large display typography, and intentional motion.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The design language draws from luxury fashion houses: near-black backgrounds, warm ivory text, bronze accents, and the Cormorant Garamond serif typeface paired with Inter for body copy.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Sections
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Hero — A full-screen cinematic opening with Justina's portrait, her name in large display type, and a subtle scroll invitation.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+About — A split layout introducing who Justina is, her background in Dar es Salaam, and her dual identity as both a model and a fashion designer.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Measurements — Animated statistics displaying her verified model measurements including height, weight, bust, waist, shoulders, and shoe size.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Vision — A parallax full-screen quote section expressing her creative philosophy: redefining African luxury as a singular, modern language of beauty.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Education — A timeline of her academic and professional training, including her Diploma in Fashion Design and posing workshops.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Disciplines — Four core skill areas presented in an interactive card grid: Photogenic, Fashion Design, Posing and Movement, and Styling and Branding.
+
+Experience — A list of selected collaborations including African Splash, Studio Kasuwi, Fikisha Solutions, and Photoshop KCH.
+
+Selected Work — A curated editorial grid of campaign images from her most notable projects.
+
+Rate Card — Transparent pricing tiers for Editorial, Campaign, and Content work, with enquiry links.
+
+Contact — A minimal contact form alongside her direct contact details and social media links.
+
+Footer — A marquee closing with her name and availability, plus navigation and copyright.
+
+---
+
+## Design Tokens
+
+The visual identity is built around four brand colors: Noir (near-black), Ivory (warm white), Sand (warm beige), and Bronze (warm brown-gold). These are used consistently across all sections to maintain a cohesive luxury feel in both light and dark modes.
+
+Typography uses Cormorant Garamond for all display headings — a serif typeface with elegant thin strokes suited for fashion editorial — and Inter for all body text and UI labels.
+
+---
+
+## Features
+
+- Dark mode and light mode toggle with system preference detection and localStorage persistence
+- Smooth entrance animations powered by Framer Motion on every section
+- Parallax scrolling on the Vision section
+- Animated number counters on the Measurements section
+- Responsive layout optimized for mobile, tablet, and desktop
+- SEO structured data using JSON-LD schema for Person
+- Accessible navigation with keyboard support and ARIA labels
+- Contact form with client-side validation and toast notifications
+
+---
+
+## Tech Stack
+
+- React with TypeScript
+- Vite as the build tool
+- Tailwind CSS v4 for styling
+- Framer Motion for animations
+- React Router for page routing
+- Sonner for toast notifications
+- Lucide React for icons
+- Google Fonts for Cormorant Garamond and Inter
+
+---
+
+## Project Structure
+
+The source code is organized under the src directory. Components are split into portfolio sections and reusable UI primitives. Assets include editorial photography used across the hero, about, vision, and project sections. Custom hooks handle theme toggling, scroll reveal, and toast state.
+
+---
+
+## Availability
+
+Justina is available for bookings worldwide. For campaign, editorial, runway, e-commerce, and content work, enquiries can be sent through the contact form on the site or directly via email.
+
+---
+
+© 2026 Justina Kasuwi. All rights reserved. Dar es Salaam, Tanzania.
