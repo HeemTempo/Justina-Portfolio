@@ -16,7 +16,7 @@ const Hero = () => {
       >
         <img
           src={heroImage}
-          alt="Justina Kasuwi, photogenic model and fashion designer portrait"
+          alt="Justina Eugen, photogenic model and fashion designer portrait"
           width={1080}
           height={1920}
           className="h-full w-full object-cover object-center opacity-80"
