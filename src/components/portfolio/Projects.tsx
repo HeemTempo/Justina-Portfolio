@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import african from "@/assets/project-african-splash.jpg";
-import fikisha from "@/assets/project-fikisha.jpg";
-import photoshop from "@/assets/project-photoshop.jpg";
+import african from "@/assets/project-african-splash.jpeg";
+import fikisha from "@/assets/project-fikisha.jpeg";
+import photoshop from "@/assets/project-photoshop.png";
 
 const projects = [
   {
